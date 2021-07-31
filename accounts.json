@@ -1,10 +1,10 @@
 {
   "accounts": [
     {
-      "id": 1,
       "name": "akshay",
       "email": "akshay@nighthack.in",
-      "verified": false
+      "verified": true,
+      "id": 1
     },
     {
       "name": "Sai",
