@@ -3,25 +3,25 @@
     {
       "name": "akshay",
       "email": "akshay@nighthack.in",
-      "verified": true,
+      "verified": false,
       "id": 1
     },
     {
       "name": "Sai",
       "email": "sai@nighthack.in",
-      "verified": false,
+      "verified": true,
       "id": 2
     },
     {
       "name": "Vishrut",
       "email": "vishrut@nighthack.in",
-      "verified": true,
+      "verified": false,
       "id": 3
     },
     {
       "name": "Annan",
       "email": "annan@nighthack.in",
-      "verified": true,
+      "verified": false,
       "id": 4
     },
     {
