@@ -15,14 +15,9 @@ async function checkBlockchain() {
     const localCommits = await gitlogPromise(options);
 
     for (let i = 0; i < remoteCommits.data.length - 1; i++) {
-      if (remoteCommits.data[i].commit.message != localCommits[i + 1].subject) {
+      if (remoteCommits.data[i].commit.message != localCommits[i].subject) {
         throw Error("Hash mismatch");
       }
-    }
-
-    const newCommit = localCommits[0].subject.split("-");
-    if (newCommit[0] != remoteCommits.data[0].sha) {
-      throw Error("New Hash mismatch");
     }
 
     console.log("All good. Ready to add the transaction!");
