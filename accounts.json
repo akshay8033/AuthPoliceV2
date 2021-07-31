@@ -1,0 +1,40 @@
+{
+  "accounts": [
+    {
+      "id": 1,
+      "name": "akshay",
+      "email": "akshay@nighthack.in",
+      "verified": false
+    },
+    {
+      "name": "Sai",
+      "email": "sai@nighthack.in",
+      "verified": false,
+      "id": 2
+    },
+    {
+      "name": "Vishrut",
+      "email": "vishrut@nighthack.in",
+      "verified": false,
+      "id": 3
+    },
+    {
+      "name": "Annan",
+      "email": "annan@nighthack.in",
+      "verified": false,
+      "id": 4
+    },
+    {
+      "name": "Eshwar",
+      "email": "eshwar@nighthack.in",
+      "verified": false,
+      "id": 5
+    },
+    {
+      "name": "Micanna",
+      "email": "micanna@nighthack.in",
+      "verified": false,
+      "id": 6
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+new commit - l1.hash + filehash - Only approved if commits of local & remote match. If they dont match then someone have tampered with the data.
+
+
+l1 - l2.hash + filehash
+l2 - l3.hash + filehash
+l3 - l4.hash + filehash
+l4 - l5.hash + filehash
+l5 - 0x00000 + filehash
+
+
+r1 - r2.hash + filehash - Head
+r2 - r3.hash + filehash
+r3 - r4.hash + filehash
+r4 - r5.hash + filehash
+r5 - 0x00000 + filehash - First
+
+
+r1.message.prevHash == 1.hash
+2.message == 3.hash
+3.message == 4.hash
+4.message == 5.hash
+
