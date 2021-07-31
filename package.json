@@ -5,7 +5,9 @@
   "pre-commit": "test:blockchain",
   "dependencies": {
     "axios": "^0.21.1",
-    "gitlog": "^4.0.4",
+    "gitlog": "^4.0.4"
+  },
+  "devDependencies": {
     "pre-commit": "^1.2.2"
   }
 }
